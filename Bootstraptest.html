@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <title>Bootstrap</title>
+    <style>
+        *{
+            text-align: justify;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <header
+                class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+                <div class="col-md-3 mb-2 mb-md-0">
+                    <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+                        <img src="https://www.thegoandroid.com/wp-content/uploads/2015/09/google_logo_2015_810-1900x700_c.jpg" class="bi" width="100" height="45" alt="">
+                    </a>
+                </div>
+
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+                    <li><a href="#" class="nav-link px-2">Features</a></li>
+                    <li><a href="#" class="nav-link px-2">Contact Us</a></li>
+                    <li><a href="#" class="nav-link px-2">About</a></li>
+                </ul>
+
+                <div class="col-md-3 text-end">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Login</button>
+                    <button type="button" class="btn btn-primary">Sign-up</button>
+                </div>
+            </header>
+        </div>
+        <div class="container-fluid opacity-25"
+            style="background-image: url(https://images6.alphacoders.com/420/420903.jpg); background-size: 1300px 1000px;">
+            <div class="container my-5 text-white">
+                <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 shadow-lg">
+                    <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                        <h1 class="display-4 fw-bold lh-1 text-body-emphasis opacity-75">Responsive Application</h1>
+                        <p class="lead opacity-75">Quickly design and customize responsive mobile-first sites with
+                            Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables
+                            and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript
+                            plugins.</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                            <button type="button opacity-75"
+                                class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Download</button>
+                            <button type="button opacity-75" class="btn btn-secondary btn-lg px-4">Learn More</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg "  style="border-radius: 1%;">
+                        <img class="rounded-lg-3 opacity-100"
+                            src="https://images.unsplash.com/photo-1554331808-4e46e8ee8041?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8c291cmNlc3x8MHx8fHwxNjIwODQyMjgy&ixlib=rb-1.2.1&q=80&w=1080"
+                            alt="" width="720" height="450">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container px-4 py-5" id="featured-3">
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                        <i class="bi fa-solid fa-circle-user fa-beat text-primary" style="width: 1em; height: 1em;"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Complain Forms</h3>
+                    <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
+                        sentence and probably just keep going until we run out of words.</p>
+                    <a href="#" class="icon-link">
+                        Read more
+                        <i class="bi fa-solid fa-arrow-right fa-beat-fade text-primary"></i>
+                    </a>
+                </div>
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                        <i class="bi fa-solid fa-flask fa-beat text-primary"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Police Inquiry</h3>
+                    <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
+                        sentence and probably just keep going until we run out of words.</p>
+                    <a href="#" class="icon-link">
+                        Read more
+                        <i class="bi fa-solid fa-arrow-right fa-beat-fade text-primary"></i>
+                    </a>
+                </div>
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                        <i class="bi text-primary fa-solid fa-sliders fa-fade"></i>
+                    </div>
+                    <h3 class="fs-2 text-body-emphasis">Court Cases</h3>
+                    <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
+                        sentence and probably just keep going until we run out of words.</p>
+                    <a href="#" class="icon-link">
+                        Read more
+                        <i class="bi fa-solid fa-arrow-right fa-beat-fade text-primary"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container card mb-3">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <img src="https://th.bing.com/th/id/OIP.ua7laYzjbVKa0_zKfi3rawAAAA?pid=ImgDet&rs=1"
+                        class="img-fluid rounded-start py-2" alt="..." width="550">
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-decoration: underline;">Police murdered Innocent</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+                            iste nemo molestiae soluta voluptate. Culpa voluptates inventore nesciunt temporibus? Error!
+                            This content is a little bit longer. Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Ipsum, minus velit deserunt excepturi odio mollitia soluta, consectetur optio sunt
+                            libero rerum? Quidem suscipit officiis labore?</p>
+                        <button class="btn btn-primary btn-lg" type="button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container card mb-3">
+            <div class="row g-0">
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h5 class="card-title" style="text-decoration: underline;">India moon mission is</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero modi
+                            voluptate odit, ullam in voluptatum quas illum laborum consequuntur voluptatem. This content
+                            is a little bit longer. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+                            facilis quidem eos id, eius corporis aspernatur minima quaerat, eveniet nihil dolorem at!
+                            Illo, in accusantium.</p>
+                        <button class="btn btn-primary btn-lg" type="button">Read More</button>
+                    </div>
+
+                </div>
+                <div class="col-md-6">
+                    <img src="https://th.bing.com/th/id/OIP.k7lXOMtjD4mbrPfdg1ta1QHaEK?pid=ImgDet&w=3840&h=2160&rs=1"
+                        class="img-fluid rounded-start py-2" alt="..." width="550">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+        <form class="row g-3">
+            <strong>
+                <h2 style="text-decoration: underline;">Contact Us</h2>
+            </strong>
+            <div class="row g-3">
+                <div class="col-6">
+                    <label for="inputEmail4" class="form-label">First Name</label>
+                    <input type="text" class="form-control" aria-label="First name">
+                </div>
+                <div class="col-6">
+                    <label for="inputEmail4" class="form-label">Last name</label>
+                    <input type="text" class="form-control" aria-label="Last name">
+                </div>
+            </div>
+            <div class="col-12">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-12">
+                <label for="inputEmail4" class="form-label">Message</label>
+                <textarea class="form-control" aria-label="With textarea" cols="30" rows="10"></textarea>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Check me out
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+        <div class="container">
+            <footer class="py-3 my-4">
+                <hr>
+                <p class="text-center text-body-secondary">© 2023 Company, All Right Reserved.</p>
+            </footer>
+        </div>
+
+    </div>
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+    </script>
+</body>
+
+</html>
